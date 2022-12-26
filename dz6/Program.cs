@@ -25,13 +25,13 @@
 // Задача 2
 
 Console.WriteLine("введите значение k1");
-double k1=Convert.ToInt32(Console.ReadLine());
+double k1=Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("введите значение b1");
-double b1=Convert.ToInt32(Console.ReadLine());
+double b1=Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("введите значение k2");
-double k2=Convert.ToInt32(Console.ReadLine());
+double k2=Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("введите значение b2");
-double b2=Convert.ToInt32(Console.ReadLine());
+double b2=Convert.ToDouble(Console.ReadLine());
 // из условия y=k1*x+b1 - y=k2*x-b2 можно выразить х;
 if (k1==k2)
     Console.WriteLine("Прямые параллельны");
